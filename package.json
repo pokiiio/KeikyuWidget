@@ -1,0 +1,20 @@
+{
+  "name": "KeikyuWidget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd src&&npm install",
+    "start": "electron ./src",
+    "build-macOS": "electron-packager ./src KeikyuWidget --platform=darwin --arch=x64 --overwrite",
+    "build-windows": "electron-packager ./src KeikyuWidget --platform=win32 --arch=x64 --overwrite",
+    "build-linux": "electron-packager ./src KeikyuWidget --platform=linux --arch=x64 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.9",
+    "electron-packager": "^12.2.0"
+  }
+}
