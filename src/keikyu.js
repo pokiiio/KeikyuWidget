@@ -7,9 +7,9 @@ function updateInfo() {
     getInfo()
         .then(function (info) {
             if (info.includes('平常')) {
-                infoBadge.style.visibility = "hidden";
+                infoBadge.style.opacity = 0;
             } else {
-                infoBadge.style.visibility = "visible";
+                infoBadge.style.opacity = 1;
                 infoBadge.innerHTML = info;
             }
 
