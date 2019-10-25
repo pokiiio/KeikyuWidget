@@ -1,3 +1,6 @@
+***京急の運行情報ページに変更があったため、現在このライブラリは利用できません***
+***近日中に対応予定です***
+
 
 
 ![ポキオ 京急 運行情報 ウィジェット](https://lh3.googleusercontent.com/LPNEDI55eZcoN2ql9pXFM8jD-Mzi9S7IrCLhoC-_00xrElfpM7WWbbN9KrIg4v5ylYu45PP_fDERQ85X4Bqla5POngq8mkHMA68Rm1WFqJGq7Azn5SIN6tNwIp4NTvYBrGyAobmk4yM=s600 "ポキオ 京急 運行情報 ウィジェット")
