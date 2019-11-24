@@ -26,8 +26,8 @@ function getInfo() {
     return request(options)
         .then(function (body) {
             let info = body;
-            info = info.split('<div class=unko-panel>')[1];
-            info = info.split('</div>')[0];
+            info = info.split('<a href="https://unkou.keikyu.co.jp/" target=_blank>')[1];
+            info = info.split('</a>')[0];
             info = info.trim();
             return info;
         });
